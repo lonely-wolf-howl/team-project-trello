@@ -51,13 +51,13 @@
 <p>POST '/boards' - create board</p>
 </li>
 <li>
-<p>PUT '/boards/:boardId' - update board</p>
+<p>PUT '/boards/:id' - update board</p>
 </li>
 <li>
-<p>DELETE '/boards/:boardId' - delete board</p>
+<p>DELETE '/boards/:id' - delete board</p>
 </li>
 <li>
-<p>POST '/boards/invite/:boardId' - invite user</p>
+<p>POST '/boards/invite/:id' - invite user</p>
 </li>
 <li>
 <p>GET '/boards/invitedBoards' - get all invited boards</p>
@@ -66,7 +66,7 @@
 <p>GET '/boards/detail/:id' - get board detail</p>
 </li>
 <li>
-<p>DELETE '/boards/invitedBoards/:boardId' - delete invited board</p>
+<p>DELETE '/boards/invitedBoards/:id' - delete invited board</p>
 </li>
 </ul>
 </li>
