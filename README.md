@@ -1,14 +1,6 @@
-<img width="657" alt="스크린샷 2023-10-16 오후 1 55 44" src="https://github.com/mr-olympia-jay/team-project-trello/assets/130229450/d4de7e58-b607-4f2f-8a7a-f83455100310"><p align="center">
 <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
-
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
-
-
-
-
-
 <h1 align="center">ERD</h1>
 <hr>
 <p align="center">
@@ -18,8 +10,7 @@
 <hr>
 <h1 align="center">API</h1>
 <hr>
-<ul>
-<li>
+    
 <h4>User</h4>
 <ul>
 <li>
@@ -46,40 +37,7 @@
 </ul>
 </li>
 <li>
-<h4>Card</h4>
-<ul>
-<li>
-<p>GET '/cards/:id' - get card detail</p>
-</li>
-<li>
-<p>POST '/cards' - create card</p>
-</li>
-<li>
-<p>PUT '/cards/:id' - update card</p>
-</li>
-<li>
-<p>DELETE '/cards/:id' - delete card</p>
-</li>
-</ul>
-</li>
-<li>
-<h4>Comment</h4>
-<ul>
-    <li>
-        <p>GET '/comments/:cardId' - get all comments</p>
-    </li>
-    <li>
-        <p>POST '/comments/:cardId' - create comment</p>
-    </li>
-    <li>
-        <p>PUT 'comments/:commentId' - update comment</p>
-    </li>
-    <li>
-        <p>DELETE 'comments/:commentId' - delete comment</p>
-    </li>
-</ul>
-</li>
-<li>
+     
 <h4>Board</h4>
 <ul>
 <li>
@@ -109,6 +67,7 @@
 </ul>
 </li>
 <li>
+    
 <h4>Column</h4>
 <ul>
 <li>
@@ -129,3 +88,39 @@
 </ul>
 </li>
 </ul>
+
+<h4>Card</h4>
+<ul>
+<li>
+<p>GET '/cards/:id' - get card detail</p>
+</li>
+<li>
+<p>POST '/cards' - create card</p>
+</li>
+<li>
+<p>PUT '/cards/:id' - update card</p>
+</li>
+<li>
+<p>DELETE '/cards/:id' - delete card</p>
+</li>
+</ul>
+</li>
+<li>
+    
+<h4>Comment</h4>
+<ul>
+<li>
+<p>GET '/comments/:cardId' - get all comments</p>
+</li>
+<li>
+<p>POST '/comments/:cardId' - create comment</p>
+</li>
+<li>
+<p>PUT 'comments/:commentId' - update comment</p>
+</li>
+<li>
+<p>DELETE 'comments/:commentId' - delete comment</p>
+</li>
+</ul>
+</li>
+<li>
