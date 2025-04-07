@@ -7,7 +7,6 @@
 
 <hr>
 <h1 align="center">ERD</h1>
-<hr>
 <p align="center">
 <img width="657" alt="erd-team-project-trello" src="https://github.com/mr-olympia-jay/team-project-trello/assets/130229450/c9d7a45b-68ef-49c5-b7dd-cb04f9909832">
 </p>
